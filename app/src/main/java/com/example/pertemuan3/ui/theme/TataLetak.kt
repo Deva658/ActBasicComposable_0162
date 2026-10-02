@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -113,3 +114,13 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     Text(text = "Col1 Row1 Komponen2")
                     Text(text = "Col1 Row1 Komponen3")
                 }
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Col1 Row2 Komponen1")
+                    Text(text = "Col1 Row2 Komponen2")
+                    Text(text = "Col1 Row2 Komponen3")
+                }
+            }
+        }
