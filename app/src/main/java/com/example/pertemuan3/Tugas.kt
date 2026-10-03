@@ -57,6 +57,12 @@ fun HalamanTugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Text(
+                text = "Deva Aditya",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
         }
     }
 }
