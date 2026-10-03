@@ -1,8 +1,11 @@
 package com.example.pertemuan3
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
@@ -33,6 +36,11 @@ fun HalamanTugas(modifier: Modifier = Modifier) {
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
+            )
+            Text(
+                text = "ini adalah halaman login",
+                fontSize = 16.sp,
+                color = Color.White
             )
         }
     }
